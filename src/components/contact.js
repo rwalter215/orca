@@ -200,7 +200,7 @@ class Contact extends React.Component {
                                                     ? " disabled"
                                                     : "")
                                             }
-                                            onClick={this.handleSubmit}
+                                            type="submit"
                                             id="submit"
                                             ref={c => (this.btn = c)}
                                         >

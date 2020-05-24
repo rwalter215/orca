@@ -117,7 +117,26 @@ class Contact extends React.Component {
                 >
                     {this.showContactForm && (
                         <div className="col s12 m6">
-                            <form>
+                            <form
+                                name="contact"
+                                method="post"
+                                data-netlify="true"
+                                data-netlify-honeypot="name1"
+                            >
+                                <input
+                                    type="hidden"
+                                    name="form-name"
+                                    value="contact"
+                                />
+                                <p hidden>
+                                    <label>
+                                        Don’t fill this out:{" "}
+                                        <input
+                                            name="name1"
+                                            onChange={handleChange}
+                                        />
+                                    </label>
+                                </p>
                                 <div className="field">
                                     <label>
                                         <span className="label text-tertiary">

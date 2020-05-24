@@ -133,7 +133,7 @@ class Contact extends React.Component {
                                         Don’t fill this out:{" "}
                                         <input
                                             name="name1"
-                                            onChange={handleChange}
+                                            ref={c => (this.dataName1 = c)}
                                         />
                                     </label>
                                 </p>

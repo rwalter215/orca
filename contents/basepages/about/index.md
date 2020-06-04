@@ -4,6 +4,20 @@ template: basepage
 image: ./image.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Your Software Solution
+Hi, I’m Ryan.
+Front-end Developer for Adobe, I strive to create an easily maintainable clean code. Add
+well tested and accessible, and you get the Dev bingo. I specialize in React and Node Applications.
+- Voted most likely to say “Best practices” in an everyday convo.
+- Rocking the “Austin tech” camouflage, ie. Bald, beard, and witty tatts.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Your Copywriting Solution
+Bonjour, I’m Carla,
+the Frenchy with the smart words. But I’ll be the first to agree; sometimes, you need more than just
+the right words. You need the right story and an effective strategy. Transitioning from lifestyle
+journalism, I’m committed to providing sharp digital and print copywriting as well as cadenced
+content that fits your company’s voice.
+- Born and raised in Paris and still weirdly winning popularity contests.
+- Published non-fiction author and branding obsessed.
+

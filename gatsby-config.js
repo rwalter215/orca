@@ -1,12 +1,12 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `Orca Solutions`,
     siteUrl: `http://localhost`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    introTag: `COPY WRITING | SOFTWARE DEVELOPMENT`,
+    description: `Your Brand deserves to make waves.`,
     author: `@_akzhy`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -108,16 +108,16 @@ const plugins = [
         options: {
             strictMath: true
         }
-    },
-]
+    }
+];
 
-if(siteMetadata.disqus) {
+if (siteMetadata.disqus) {
     plugins.push({
         resolve: `gatsby-plugin-disqus`,
         options: {
-          shortname: siteMetadata.disqus
+            shortname: siteMetadata.disqus
         }
-    })
+    });
 }
 
 module.exports = {

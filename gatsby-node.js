@@ -14,7 +14,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions
+    const { createTypes } = actions;
     const typeDefs = `
       type Site implements Node {
         siteMetadata: SiteMetaData
@@ -22,8 +22,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       type SiteMetaData {
         disqus: String
       }
-    `
-    createTypes(typeDefs)
+    `;
+    createTypes(typeDefs);
 
     /*const { createTypes } = actions;
     const typeDefs = [
@@ -42,7 +42,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             interfaces: ["Node"]
         })
     ];*/
-}
+};
 
 exports.createPages = ({ graphql, actions }) => {
     const { createPage } = actions;
@@ -178,6 +178,13 @@ exports.createPages = ({ graphql, actions }) => {
                     slug: node.fields.slug
                 }
             });
+        });
+
+        // create about page
+        createPage({
+            path: "aboutus",
+            component: path.resolve("./src/pages/about.js"),
+            context: "aboutus"
         });
     });
 };
